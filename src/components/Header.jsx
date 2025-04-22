@@ -22,6 +22,11 @@ const Header = () => (
             About
           </NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/cart">
+            Cart
+          </NavLink>
+        </li>
       </ul>
     </nav>
   </header>

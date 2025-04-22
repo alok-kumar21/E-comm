@@ -13,7 +13,7 @@ const ProductsDetails = () => {
       name: 'Product 1',
       description:
         'This is Description of Product 1. Lorem ipsum dolor sit amet consectetur adipiscing elit',
-      price: '$99.99',
+      price: 99.99,
       availableColors: ['Red', 'Bule', 'Green'],
       isReturnApplicable: true,
       productImgeUrl: 'https://placehold.co/300x200',
@@ -23,7 +23,7 @@ const ProductsDetails = () => {
       name: 'Product 2',
       description:
         'This is Description of Product 1. Lorem ipsum dolor sit amet consectetur adipiscing elit',
-      price: '$129.99',
+      price: 129.99,
       availableColors: ['White', 'Black'],
       isReturnApplicable: true,
       productImgeUrl: 'https://placehold.co/300x200',
@@ -33,7 +33,7 @@ const ProductsDetails = () => {
       name: 'Product 3',
       description:
         'This is Description of Product 1. Lorem ipsum dolor sit amet consectetur adipiscing elit',
-      price: '$79.99',
+      price: 79.99,
       availableColors: ['Yellow'],
       isReturnApplicable: false,
       productImgeUrl: 'https://placehold.co/300x200',
@@ -43,7 +43,7 @@ const ProductsDetails = () => {
       name: 'Product 4',
       description:
         'This is Description of Product 1. Lorem ipsum dolor sit amet consectetur adipiscing elit',
-      price: '$49.99',
+      price: 49.99,
       availableColors: ['Purple', 'Yellow'],
       isReturnApplicable: true,
       productImgeUrl: 'https://placehold.co/300x200',
@@ -64,7 +64,7 @@ const ProductsDetails = () => {
             alt="img"
             className="img-fluid py-3"
           />
-          <p>Price: {itemData.price}</p>
+          <p>Price: ${itemData.price}</p>
           <p>Description: {itemData.description}</p>
           <p>Available: {itemData.availableColors.join(',')}</p>
           <p>

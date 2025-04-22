@@ -6,6 +6,7 @@ import App from './App.jsx';
 import Products from './pages/Products';
 import About from './pages/About';
 import ProductsDetails from './pages/ProductsDetails';
+import Cart from './pages/Cart';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/products/:productId',
     element: <ProductsDetails />,
+  },
+  {
+    path: '/cart',
+    element: <Cart />,
   },
 ]);
 
