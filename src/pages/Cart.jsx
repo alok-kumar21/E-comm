@@ -1,23 +1,23 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Cart = () => {
   const cart = [
     {
       id: 1,
-      name: 'Product 1',
+      name: "Product 1",
       price: 99.99,
       quantity: 2,
     },
     {
       id: 2,
-      name: 'Product 2',
+      name: "Product 2",
       price: 129.99,
       quantity: 1,
     },
     {
       id: 3,
-      name: 'Product 3',
+      name: "Product 3",
       price: 79.99,
       quantity: 3,
     },
